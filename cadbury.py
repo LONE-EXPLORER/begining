@@ -12,8 +12,8 @@ p = int(input())
 q = int(input())
 r = int(input())
 s = int(input())
-m = 0
+n = 0
 for i in range(p , q+1):
     for j in range(r , s+1):
-        m += co(i , j)
-print(m)
+        n += co(i , j)
+print(n)
