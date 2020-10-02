@@ -1,7 +1,7 @@
-t = int(input())
+l = int(input())
 f = str(input())
 m = str(input())
-s = t
+s = l
 a  = 0
 while (s != a or m != ""):
     c =0
@@ -17,4 +17,4 @@ while (s != a or m != ""):
         if(c == len(m)):
             break
 
-print(t - a)
+print(l - a)
